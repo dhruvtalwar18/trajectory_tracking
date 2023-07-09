@@ -10,7 +10,8 @@ In addition, we explore the Generalized Policy Iteration algorithm as an alterna
 
 The main objective of this project is to compare and evaluate the performance of the CEC and GPI approaches in trajectory tracking. Through thorough experimentation and analysis, we aim to gain insights into the strengths and weaknesses of each method and identify the most effective control policy for the differential-drive robot. By merging these two approaches, we aim to develop a robust and adaptive trajectory tracking system that can handle various scenarios and achieve accurate position tracking. This project contributes to the advancement of robotics by enhancing our understanding of trajectory tracking methods and their applicability in real-world scenarios. <br>
 
-
-
-
-<h1><b> Objective </b></h1>
+<p align="center">
+  <img src="https://github.com/dhruvtalwar18/trajectory_tracking/blob/main/CEC/gifs/Q_20_10_5_10.gif" title="CEC Controller" style="width: 600px; height: 600px;">
+  <br>
+  <p align="center">Fig.1 CEC controller</p>
+</p>

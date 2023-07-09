@@ -20,6 +20,7 @@ The main objective of this project is to compare and evaluate the performance of
 
 <h1><b> Code Setup </b></h1>
 Clone the repository and install the requirements
+
 ```
 git clone https://github.com/dhruvtalwar18/trajectory_tracking
 cd trajectory_tracking

@@ -15,3 +15,36 @@ The main objective of this project is to compare and evaluate the performance of
   <br>
   <p align="center">Fig.1 CEC controller</p>
 </p>
+
+
+
+<h1><b> Code Setup </b></h1>
+Clone the repository and install the requirements
+```
+git clone https://github.com/dhruvtalwar18/trajectory_tracking
+cd trajectory_tracking
+python3 -m venv venv
+pip3 install -r requirements.txt
+```
+
+To run the CEC controller run the following:
+```
+python3 cec_controller.py
+```
+
+The script we have developed in this project serves the purpose of invoking our custom controller, whether it is the CEC or the Value Iteration obtained policy controller. Its main function is to simulate the robot's behavior as it strives to accurately follow a given reference trajectory.
+
+
+To run the GPI algorithm run
+```
+python3 GPI_controller.py
+```
+
+In this script, we implement the Value Iteration algorithm to address the infinite horizon tracking problem. By running this algorithm, we aim to obtain the optimal policy function that guides the robot's actions in tracking the desired trajectory.
+
+
+
+
+
+
+
